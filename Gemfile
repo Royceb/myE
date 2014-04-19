@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
+gem 'high_voltage'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -34,6 +36,9 @@ end
 
 
 gem 'twitter-bootstrap-rails'
+gem 'therubyracer'
+gem 'less-rails'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
